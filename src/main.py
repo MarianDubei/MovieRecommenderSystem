@@ -30,4 +30,3 @@ while True:
             unwatched_films_predicts.append([item, np.mean(svd_out[u_index, :])])
     unwatched_films_predicts.sort(key=lambda x: x[1], reverse=True)
     print(unwatched_films_predicts)
-    print(len(unwatched_films_predicts))
